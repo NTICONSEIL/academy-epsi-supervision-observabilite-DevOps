@@ -10,8 +10,6 @@ Ce dossier contient tout ce qu'il faut pour animer le TP :
 | `docker-compose.yml` | Tout le monde | Démarrage du TP, Phase 0 |
 | `tp-data/` | Containers + participants | Sources des logs (3 fichiers) |
 | `tp1-instructions.md` | Participants | Distribué en début de TP |
-| `solutions.md` | Animateur seulement | À garder côté formateur |
-| `scripts/generate-logs.py` | Animateur | Pour régénérer les datasets si besoin |
 
 ---
 
