@@ -1,0 +1,52 @@
+services:
+  # -----------------------------------------------------
+  # Service legacy : logs texte non structurés
+  # -----------------------------------------------------
+  app-sample:
+    image: busybox:1.36
+    container_name: app-sample
+    command: >
+      sh -c "
+      cat /data/unstructured-logs.txt &&
+      tail -f /dev/null
+      "
+    volumes:
+      - ./tp-data:/data:ro
+    restart: "no"
+
+  # -----------------------------------------------------
+  # Service moderne : logs JSON structurés
+  # -----------------------------------------------------
+  app-sample-json:
+    image: busybox:1.36
+    container_name: app-sample-json
+    command: >
+      sh -c "
+      cat /data/app-logs.jsonl &&
+      tail -f /dev/null
+      "
+    volumes:
+      - ./tp-data:/data:ro
+    restart: "no"
+
+  # -----------------------------------------------------
+  # Toolbox d'analyse : jq, grep, awk, sort, uniq, wc
+  # -----------------------------------------------------
+  toolbox:
+    image: alpine:3.20
+    container_name: logs-toolbox
+    stdin_open: true
+    tty: true
+    working_dir: /data
+    volumes:
+      - ./tp-data:/data:ro
+    command: >
+      sh -c "
+      apk add --no-cache jq coreutils grep gawk &&
+      echo 'Toolbox prête : jq est disponible.' &&
+      echo 'Exemples :' &&
+      echo '  cat app-logs.jsonl | jq .' &&
+      echo '  cat incident-logs.json | jq -c \"select(.level==\\\"ERROR\\\")\"' &&
+      sh
+      "
+    restart: "no"

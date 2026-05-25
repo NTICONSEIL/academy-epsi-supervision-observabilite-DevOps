@@ -1,0 +1,100 @@
+[2025-05-16 10:20:00] INFO Session started for user_id=user_028
+2025-05-16 10:20:20 - INFO - Order #86832 created user=user_020
+2025-05-16T10:21:00 INFO Order #80337 created user=user_019
+[2025-05-16 10:21:20] ERROR Catalog service temporary unavailable user=user_015
+2025-05-16 10:21:40 - ERROR - Catalog service temporary unavailable user=user_008
+2025-05-16T10:22:00 INFO Session started for user_id=user_009
+[2025-05-16 10:22:10] ERROR: Payment processing failed user=user_014 order_id=order_21014
+2025-05-16 10:22:20 - INFO - Session started for user_id=user_004
+2025-05-16T10:22:40 WARN Cart abandoned user=user_015 (7 items)
+[2025-05-16 10:23:00] ERROR Catalog service temporary unavailable user=user_008
+2025-05-16 10:23:20 - INFO - Order #91161 created user=user_015
+2025-05-16T10:23:40 WARN Cart abandoned user=user_031 (1 items)
+[2025-05-16 10:24:00] INFO Order #91045 created user=user_039
+[2025-05-16 10:24:33] ERR payment gateway unreachable - timeout after 5s user=user_023 order_id=order_21023
+2025-05-16T10:24:40 INFO Session started for user_id=user_036
+[2025-05-16 10:25:00] INFO Basket item added user=user_013 id=prod_1077
+2025-05-16 10:25:40 - WARN - Slow query on products table (1129ms)
+2025-05-16T10:26:00 WARN Slow query on products table (1766ms)
+[2025-05-16 10:26:20] INFO Basket item added user=user_034 id=prod_1073
+2025-05-16 10:26:40 - WARN - Slow query on products table (1227ms)
+2025-05-16T10:27:00 WARN Cart abandoned user=user_030 (6 items)
+[2025-05-16 10:27:20] WARN Cart abandoned user=user_015 (1 items)
+2025-05-16 10:27:40 - WARN - Cart abandoned user=user_018 (8 items)
+2025-05-16T10:27:48 ERROR - Payment failed for order_21032 user_id=user_032
+[2025-05-16 10:28:00] INFO Session started for user_id=user_011
+2025-05-16 10:28:20 - INFO - Basket item added user=user_005 id=prod_1080
+2025-05-16T10:28:40 WARN Slow query on products table (1150ms)
+[2025-05-16 10:29:00] INFO Session started for user_id=user_019
+2025-05-16 10:29:20 - WARN - Slow upstream response upstream=payment-service duration_ms=2814
+2025-05-16T10:29:40 WARN Slow query on products table (786ms)
+[2025-05-16 10:30:00] ERROR: Payment processing failed user=user_023 order_id=order_89131
+2025-05-16T10:30:09 ERROR - Payment failed for order_31319 user_id=user_029
+2025-05-16T10:30:20 INFO Order #85403 created user=user_022
+[2025-05-16 10:30:22] ERR payment gateway unreachable - timeout after 5s user=user_023 order_id=order_24621
+2025-05-16 10:30:40 - ERROR - Catalog service temporary unavailable user=user_044
+2025-05-16T10:31:00 WARN Slow query on products table (1503ms)
+[2025-05-16 10:31:14] ERR payment gateway unreachable - timeout after 5s user=user_028 order_id=order_67422
+2025-05-16 10:31:20 - WARN - Cart abandoned user=user_004 (3 items)
+2025-05-16T10:31:40 INFO Session started for user_id=user_023
+[2025-05-16 10:32:00] WARN Slow query on products table (702ms)
+2025-05-16 10:32:20 - INFO - Order #96089 created user=user_009
+2025-05-16T10:32:40 INFO Session started for user_id=user_016
+2025-05-16T10:32:45 ERROR - Payment failed for order_22118 user_id=user_018
+2025-05-16 10:33:20 - WARN - Cart abandoned user=user_042 (4 items)
+2025-05-16T10:33:40 INFO Session started for user_id=user_017
+[2025-05-16 10:34:00] INFO Basket item added user=user_031 id=prod_1087
+[2025-05-16 10:34:12] ERROR: Payment processing failed user=user_023 order_id=order_22123
+2025-05-16T10:34:20 INFO Order #95642 created user=user_024
+2025-05-16T10:35:00 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=5217 user_id=user_032 order_id=order_71080
+2025-05-16T10:35:16 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=6500 user_id=user_038 order_id=order_43924
+2025-05-16T10:35:20 INFO Basket item added user=user_017 id=prod_1084
+2025-05-16T10:35:39 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=5626 user_id=user_015 order_id=order_80465
+2025-05-16 10:35:40 - INFO - Order #94829 created user=user_016
+2025-05-16T10:36:00 INFO Order #86825 created user=user_017
+2025-05-16T10:36:11 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=7715 user_id=user_023 order_id=order_28388
+2025-05-16 10:36:20 - WARN - Slow query on products table (1518ms)
+2025-05-16T10:36:40 WARN Slow query on products table (783ms)
+[2025-05-16 10:37:00] WARN Cart abandoned user=user_041 (7 items)
+2025-05-16T10:37:04 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=5676 user_id=user_013 order_id=order_87624
+2025-05-16T10:37:20 INFO Order #80960 created user=user_026
+2025-05-16T10:37:44 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=5543 user_id=user_030 order_id=order_17552
+2025-05-16 10:38:00 - INFO - Session started for user_id=user_013
+2025-05-16T10:38:15 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=5217 user_id=user_023 order_id=order_70012
+[2025-05-16 10:38:20] ERROR Catalog service temporary unavailable user=user_026
+2025-05-16 10:38:56 - ERROR - Card declined by issuer user=user_032 order_id=order_55093
+2025-05-16T10:39:00 INFO Session started for user_id=user_010
+2025-05-16T10:39:20 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=7559 user_id=user_037 order_id=order_98358
+2025-05-16 10:39:40 - WARN - Slow query on products table (1407ms)
+2025-05-16T10:40:00 INFO Basket item added user=user_034 id=prod_1039
+2025-05-16T10:40:12 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=8108 user_id=user_022 order_id=order_43728
+2025-05-16 10:40:40 - INFO - Session started for user_id=user_036
+2025-05-16T10:41:07 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=5491 user_id=user_012 order_id=order_24026
+[2025-05-16 10:41:20] INFO Session started for user_id=user_002
+2025-05-16 10:41:40 - WARN - Slow query on products table (1478ms)
+2025-05-16T10:42:14 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=6588 user_id=user_020 order_id=order_46064
+[2025-05-16 10:42:20] INFO Basket item added user=user_025 id=prod_1018
+2025-05-16 10:43:00 - ERROR - Catalog service temporary unavailable user=user_018
+[2025-05-16 10:43:18] ERROR: Rate limit exceeded on payment gateway user=user_023 order=order_39260
+[2025-05-16 10:43:20] INFO Order #97974 created user=user_044
+2025-05-16 10:43:40 - WARN - Slow query on products table (1015ms)
+2025-05-16T10:44:00 ERROR Catalog service temporary unavailable user=user_028
+[2025-05-16 10:44:20] ERROR Catalog service temporary unavailable user=user_033
+[2025-05-16 10:44:35] ERROR: Rate limit exceeded on payment gateway user=user_037 order=order_23645
+2025-05-16T10:45:00 WARN Cart abandoned user=user_021 (1 items)
+[2025-05-16 10:45:20] WARN Slow upstream response upstream=payment-service duration_ms=1838
+2025-05-16 10:45:40 - INFO - Basket item added user=user_027 id=prod_1056
+2025-05-16T10:46:00 WARN Cart abandoned user=user_014 (8 items)
+[2025-05-16 10:46:20] INFO Basket item added user=user_018 id=prod_1018
+2025-05-16T10:46:22 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=6042 user_id=user_005 order_id=order_54642
+2025-05-16T10:46:40 INFO Session started for user_id=user_004
+[2025-05-16 10:47:00] INFO Session started for user_id=user_042
+2025-05-16 10:47:20 - INFO - Session started for user_id=user_009
+2025-05-16T10:47:40 WARN Cart abandoned user=user_001 (2 items)
+[2025-05-16 10:48:00] WARN Slow query on products table (1043ms)
+2025-05-16T10:48:05 ERROR - Payment timeout gateway=stripe-api-eu-west duration_ms=7960 user_id=user_034 order_id=order_83137
+2025-05-16T10:48:20 WARN Slow query on products table (1467ms)
+[2025-05-16 10:48:40] INFO Session started for user_id=user_024
+2025-05-16 10:49:20 - INFO - Session started for user_id=user_023
+2025-05-16T10:49:40 INFO Basket item added user=user_005 id=prod_1025
+[2025-05-16 10:50:00] INFO Session started for user_id=user_014
