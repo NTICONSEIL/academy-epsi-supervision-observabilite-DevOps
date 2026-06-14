@@ -39,7 +39,7 @@ L'objectif du module est de vous faire découvrir les concepts modernes de :
 
 * Comprendre les différences entre supervision et observabilité
 * Manipuler des logs structurés JSON
-* Utiliser Loki, Prometheus et Jaeger
+* Utiliser ELK, Loki, Prometheus et Jaeger
 * Comprendre les 3 piliers de l’observabilité
 * Construire des dashboards Grafana
 * Diagnostiquer un incident de production
@@ -63,12 +63,13 @@ BOTE848-Student/
 │   │
 │   ├── session-2/
 │   │   ├── slides.pdf
+│   │   ├── tp-elk.md
 │   │   ├── tp-loki.md
-│   │   ├── tp-prometheus.md
 │   │   └── infrastructure/
 │   │
 │   └── session-3/
 │       ├── slides.pdf
+│       ├── tp-prometheus.md
 │       ├── tp-jaeger.md
 │       ├── cas-incident.md
 │       └── grafana-dashboard.json
