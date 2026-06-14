@@ -1,0 +1,10 @@
+{
+  "name": "shopflow-app-sample",
+  "version": "1.0.0",
+  "description": "BOTE848 — ShopFlow app-sample avec métriques Prometheus",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {}
+}
