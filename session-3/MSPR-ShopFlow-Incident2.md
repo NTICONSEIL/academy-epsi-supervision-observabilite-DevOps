@@ -166,22 +166,6 @@ _______________________________________________________________
 
 ---
 
-## 📊 Grille de correction (usage animateur — ne pas distribuer)
-
-| Critère | Points | Élément attendu |
-|---------|--------|------------------|
-| Route impactée correctement identifiée (Phase 1) | 3 | `/api/slow` (ou `GET /api/slow`) |
-| Constat de la faible fréquence d'appel (Phase 1) | 2 | ~5% du trafic, explique pourquoi c'est passé inaperçu |
-| Message et niveau de log relevés (Phase 2) | 2 | `Slow endpoint called`, niveau `warn` |
-| P50/P95/P99 correctement lus et comparés (Phase 3) | 3 | Écart significatif vs `/api/checkout` (500-2500ms vs 100-300ms) |
-| Spans de la trace correctement nommés (Phase 4) | 3 | `inventory.check_stock` → `inventory.db_lock_wait` |
-| Statut du span correctement identifié comme OK (pas ERROR) (Phase 4) | 4 | Distinction explicite avec le Bloc 2 |
-| Attribut `db.statement` relevé et interprété (Phase 4) | 2 | Requête de verrouillage (`FOR UPDATE`) |
-| Root cause cohérente avec les preuves (Phase 5) | 4 | Lenteur intrinsèque de l'opération, pas une erreur |
-| Contraste explicite avec le Bloc 2 (Phase 5) | 4 | Bloc 2 = erreur sans lenteur / Bloc 4 = lenteur sans erreur |
-| Qualité générale du rapport | 3 | — |
-| **Total** | **/30** | |
-
 ### Éléments de référence (comportement réel du code, `app-sample/server.js`)
 
 - Route : `GET /api/slow`
