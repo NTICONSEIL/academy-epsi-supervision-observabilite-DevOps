@@ -1,5 +1,5 @@
 # MSPR — ShopFlow : Nouvel Incident
-## Séance 3 / Bloc 4 — Durée : 1h — Évaluation formative
+## Séance 3 / Bloc 4 — Durée : 1h
 
 ---
 
